@@ -1,0 +1,76 @@
+.card{
+    position: relative;
+    width: 600px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 50vh;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+}
+/* .card_overlay{
+    position: relative;
+    width: 600px;
+    padding: 20px;
+    max-width: 85vw;
+    height: 50vh;
+    border-radius: 20px;
+    background-size: cover;
+    z-index: 2000;
+     border: 13px red solid 
+    background-position: center;
+    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+} */
+.tinder_cardname{
+    font-size: x-large;
+    color: white;
+    position: absolute;
+    top:300px;
+}
+.tinder_cardage{
+    color: white;
+    font-size: large;
+    position:absolute;
+    top: 350px;
+}
+.tinder_cardlocation{
+    color: white;
+    font-size: large;
+    position:absolute;
+    top: 380px;
+}
+.tinder_carddesc{
+    color: white;
+    font-size: large;
+    position:absolute;
+    top: 410px;
+}
+.tinderCards__cardContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.swipe{
+    position:absolute;
+    
+}
+
+@media screen and  (max-height:830px) {
+    .card .tinder_cardname{
+        top:170px;
+        font-size:17px;
+    }
+    .tinder_cardage{
+        top:200px;
+        font-size:15px;
+    }
+    .tinder_cardlocation{
+        top:230px;
+        font-size:15px;
+    }
+    .tinder_carddesc{
+        top:260px;
+        font-size:15px;
+    }
+}

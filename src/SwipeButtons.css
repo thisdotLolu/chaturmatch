@@ -1,0 +1,9 @@
+.SwipeButtons{
+    position: fixed;
+    top: 93vh;
+    bottom: 5vh;
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: space-evenly;
+}
